@@ -66,3 +66,57 @@ h3{
 button{
 	box-shadow: 2px 2px 2px 2px black;
 }
+
+/*media queries*/
+
+@media only screen and (min-width:320px) and (max-width:480px){
+}
+body {
+	background: pink;
+}
+
+
+.data{
+	display: flex;
+	border:5px solid black;
+	padding: 1%;
+	margin: 1%;
+	flex-direction: column;
+}
+.data>div{
+	width: 30%;
+	border:2px solid black;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 10px 0px 10px 0px red;
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	color: black;
+}
+h3{
+	color: blue;
+	
+}
+
+button{
+	box-shadow: 2px 2px 2px 2px black;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+}
+
+.data{
+	width: 100%;
+
+}
